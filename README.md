@@ -11,7 +11,3 @@ A personal collection of AI instructions and prompts, maintained here as the sou
 **When to use:** Apply as persistent defaults across writing, coding, prompt creation and revision, and handoffs between agents.
 
 **How to use:** Include the document's contents in your AI tool's user-level global instruction file. Preserve any existing instructions you still need. Use the filename and location recognized by that tool, then verify that a new session loads the instructions.
-
-## Maintenance
-
-When a document changes here, update the corresponding instructions in each tool where you use it. Saving or updating this repository alone does not apply its contents to those tools.
