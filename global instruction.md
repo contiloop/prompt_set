@@ -28,3 +28,8 @@ When meaningful testing depends on the real environment, data, access, or condit
 - When a feature is likely to have plenty of existing implementations, look for relevant implementations to learn from before building it yourself. The goal is to avoid unnecessarily reimplementing functionality that has already been implemented repeatedly elsewhere. Skip this research when the implementation is trivial or the approach is obvious.
 - Structure the code according to the principles of Hexagonal Architecture (Ports and Adapters), with clear boundaries between components. Keep core logic from being directly coupled to concrete external dependencies so that components can be replaced or tested independently.
 - Make it easy to recreate the same working environment even after deleting the project or reinstalling it in a new environment. This is intended to prevent the project from depending on incidental state specific to one machine and to make recovery, migration, and reinstallation straightforward.
+
+## 5. Artifact Hygiene
+
+- **Clean Project Structure:** Maintain a clean, well-organized, and consistent directory structure.
+- **Artifact Retention:** Avoid generating or retaining unnecessary intermediate files.
